@@ -1,0 +1,7 @@
+print('Welcome, \nPlease enter your Name:')
+username=input()
+print('Please enter your Age:')
+age=int(input())
+print('Enter where are you from:')
+state=input()
+print("Welcome {0}. You are {1} year(s) old, and you are from {2}".format(username,age,state))
